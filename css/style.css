@@ -1,0 +1,220 @@
+body
+{
+    background-color: rgb(99, 4, 4);
+}
+#main
+{
+    width: 1512px;
+    height: auto;
+    
+}
+#top
+{
+    height: 150px;
+    background-color: rgb(99, 4, 4);
+   
+}
+#footer
+{
+    height: 50px;
+    background-color:rgb(99, 4, 4);
+    
+}
+#content
+{
+    min-height: 1000px;
+    background-color: white;
+    margin-right: 7px;
+
+}
+p
+{
+    margin: 50px;
+    padding: 30px;
+    text-align: justify;
+    line-height: 25px;
+
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+
+    border:solid thin rgb(99, 4, 4);
+    border-radius: 50px 20px 50px 20px;
+    transition: background 1s;
+    
+}
+p:hover
+{
+    background-color: rgb(99, 4, 4);
+    color:white;
+    
+}
+.p
+{
+    color: white;
+    text-align: center;
+}
+.p:hover
+{
+    background-color: rgb(99, 4, 4);
+}
+a
+{
+    
+    margin:  150px;
+    padding: 5px;
+    color: black;
+    border: black thin solid;
+    border-radius: 20px;
+    background-color: white;
+    transition: background 1s;
+}
+a:hover
+{
+    color: white;
+    background-color: black;
+    
+}
+.ulLinks
+{
+    margin: 7px;
+}
+.links
+{
+    margin: 3px;
+    display: block;
+    float: right; 
+
+}
+.SubjectsLinks
+{
+    margin:  115px;
+}
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+h2
+{
+    
+    padding: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+h3
+{
+    color: white;
+}
+ul
+{
+    color: white;
+    height: 50px;
+    line-height: 30px;
+   
+} 
+.infoLinks
+{
+    
+    margin-left: 10px;
+    padding: 5px;
+}
+.ulSubjects
+{
+    color: black;
+    line-height: 100px;
+    margin-left: 550px;
+  
+}
+label
+{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+#CheckboxLabel
+{
+    border: groove thick black;
+    border-width: 10px;
+    padding: 15px;
+    transition: 1s;
+}
+#CheckboxLabel:hover
+{
+    border-radius: 20px;
+    border-color:  white;
+    background-color: rgb(99, 4, 4);
+}
+.checkbox
+{
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    outline: groove thick black;
+    
+}
+.radio
+{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+#RadioLabel
+{
+    width: 300px;
+    height: 50px;
+    margin: 10px 0px 0px 300px;
+    padding: 10px;
+    transition: border 1s;
+    
+}
+#RadioLabel:hover
+{
+    border: solid thick rgb(99, 4, 4);
+    background-color: aqua;
+    
+}
+.CoursesLabel
+{
+    width: 90px;
+    margin: 0px 0px 0px 490px;
+    padding-top: 15px;
+    display: block;
+    float: left;
+}
+.select
+{
+    width: 70px;
+    margin: 15px 80px 0px 30px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: width 1s;
+}
+.select:hover
+{
+    background-color: #eeeeee;
+    width: 120px;
+}
+table
+{
+    background-color: #eeeeee;
+    border:solid thick black;
+    border-radius: 20px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 10px;
+    height: 200px;
+
+    transition: 1s;
+}
+table:hover
+{
+    border-color: rgb(99, 4, 4);
+    transform: scale(1.2);
+}

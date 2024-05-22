@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canadian International College</title>
+    <style>
+    body
+    {
+        background-image: url("../University-Portal/images/cic\ logo2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        
+    }
+    #main
+    {
+        background-color:#eeeeee;
+        max-width: 300px;
+        height: 200px;
+        margin-top: 315px;
+        margin-left: 605px;
+        align-content: center;
+        border:solid thick black;
+        border-radius: 20px;
+        
+    }
+    label
+    {
+        width: 100px;
+        margin: 5px;
+        padding: 5px;
+        color: black;
+        display: block;
+        float: left;
+    }
+    .labels
+    {
+        margin: 5px;
+        padding: 5px;
+        width: 70px;
+        border-radius: 10px;
+        transition: width 1s;
+
+    }
+    .labels:hover
+    {
+        width: 130px;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <form name="name" action="Home.html" method="post">
+            <label>Username</label> <input type="text" class="labels" id="TB_user" name="TB_user" required placeholder="enter your username"> <br>
+            <label>Password</label> <input type="text" class="labels" id ="TB_pass" name ="TB_pass"required placeholder="enter your password"><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+    
+</body>
+</html>
